@@ -1,0 +1,15 @@
+# Legitimate dependencies
+numpy==1.26.4
+pandas==2.2.1
+
+# 1. Typosquatting attack targeting 'requests'
+reqeusts==2.31.0
+
+# 2. Typosquatting attack targeting 'colorama'
+coloramaa==0.4.6
+
+# 3. AI Hallucinated / Slopsquatted Dependency trap
+langchain-vectorstore-aws-s3==1.0.4
+
+# 4. Insecure unpinned floating dependency
+boto3
