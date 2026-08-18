@@ -16,3 +16,4 @@ A specialized Software Supply Chain Security scanner and CycloneDX SBOM generato
 ## 🚀 Quick Start
 ```bash
 python3 arachne_scanner.py sample_requirements.txt
+
